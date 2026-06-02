@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Memory Rush</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="game-wrap">
+
+    <div id="header">
+      <h1>Color Memory Rush</h1>
+      <p>Watch the sequence — then repeat it in order</p>
+    </div>
+
+    <div id="stats">
+      <div class="stat">
+        <div class="stat-label">Round</div>
+        <div class="stat-value" id="round-val">1</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Score</div>
+        <div class="stat-value" id="score-val">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Best</div>
+        <div class="stat-value" id="best-val">0</div>
+      </div>
+    </div>
+
+    <div id="outer">
+      <div id="grid"></div>
+
+      <div id="msg-overlay">
+        <div id="msg-box">
+          <h2 id="msg-title">Game Over!</h2>
+          <p id="msg-body">You scored 0 points.</p>
+          <button id="msg-btn">Play Again</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="status">Press Start to play</div>
+
+    <div id="btn-row">
+      <button id="start-btn">Start Game</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
